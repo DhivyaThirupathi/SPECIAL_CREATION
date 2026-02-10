@@ -5,7 +5,7 @@ import { Heart } from "lucide-react";
 export default function FinalReveal() {
   const [open, setOpen] = useState(false);
   // Default-ah true kuduthuruken, so page load aagum pothe song play aagum
-  const [playSong, setPlaySong] = useState(true); 
+  const [playSong] = useState(true); 
 
   const handleOpen = () => {
     setOpen(true);
